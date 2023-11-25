@@ -13,14 +13,68 @@ body {
 
 
 #container {
-    border: solid 1px black;
-    width: 70%;
+    width: 95%;
     margin: 0px auto;
 }
 
 header {
-    border: solid 1px red;
     padding: 10px;
     text-align: center;
     width: auto;
+    margin: 20px;
+}
+
+nav {
+    background-color: #d79943;
+    border-radius: 10px;
+    height: 50px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 50px;
+}
+
+nav ul li {
+    float: left;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #333335;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+.clearfix {
+    clear: both;
+}
+
+#content {
+    border: solid 1px red;
+    float: left;
+    width: calc(70% - 70px);
+    min-height: 500px;
+    padding: 40px;
+}
+
+aside {
+    border: solid 1px green;
+    float: left;
+    width: calc(20% - 20px);
+    min-height: 500px;
+    padding: 40px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    font-weight: bold;
+    color: black;
 }
