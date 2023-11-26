@@ -85,16 +85,13 @@ a:hover {
     padding: 10px;
 }
 
-/* article p {
-    padding: 10px;
-} */
-
 aside {
-    
     float: left;
     width: calc(20% - 20px);
     min-height: 500px;
     padding: 40px;
+    border: solid 1px red;
+    margin: 10px;
 }
 
 footer {
