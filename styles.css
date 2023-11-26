@@ -36,6 +36,10 @@ nav {
     margin: 50px;
 }
 
+nav:hover {
+    background-color: rgb(196, 150, 86);
+}
+
 nav ul li {
     float: left;
     margin: 10px;
@@ -61,10 +65,32 @@ a:hover {
     width: calc(70% - 70px);
     min-height: 500px;
     padding: 40px;
+    columns: 3;
 }
 
+.article {
+    color: #818989;
+    border: solid 1px rgb(36, 21, 21);
+    /* margin-top: 15px; */
+    margin-bottom: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ article h2{
+    
+    font-size: 15px;
+    padding: 10px;
+}
+
+/* article p {
+    padding: 10px;
+} */
+
 aside {
-    border: solid 1px green;
+    
     float: left;
     width: calc(20% - 20px);
     min-height: 500px;
@@ -78,3 +104,5 @@ footer {
     font-weight: bold;
     color: black;
 }
+
+
