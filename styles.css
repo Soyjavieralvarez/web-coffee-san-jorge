@@ -27,9 +27,10 @@ header {
 nav {
     background-color: #d79943;
     border-radius: 10px;
-    height: 50px;
+    height: auto;
     width: auto;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     padding: 20px;
@@ -61,22 +62,29 @@ a:hover {
 
 #content {
     border: solid 1px red;
-    float: left;
-    width: calc(70% - 70px);
+    width: auto;
     min-height: 500px;
     padding: 40px;
-    columns: 3;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .article {
     color: #818989;
     border: solid 1px rgb(36, 21, 21);
-    /* margin-top: 15px; */
-    margin-bottom: 15px;
+    margin: 20px;
+    width: 25%;
     padding: 20px;
     display: flex;
+    flex-flow: row wrap;
     flex-direction: column;
     align-items: center;
+}
+
+img {
+    width: 300px;
 }
 
  article h2{
@@ -85,14 +93,6 @@ a:hover {
     padding: 10px;
 }
 
-aside {
-    float: left;
-    width: calc(20% - 20px);
-    min-height: 500px;
-    padding: 40px;
-    border: solid 1px red;
-    margin: 10px;
-}
 
 footer {
     text-align: center;
