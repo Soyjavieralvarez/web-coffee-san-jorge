@@ -55,3 +55,74 @@ img {
     padding: 10px;
     border-radius: 10px;
 }
+
+.details {
+    margin-top: 20px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+.summary{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+    color:#5e5e5e;
+    font-weight: 700;
+    z-index: 1;
+ }
+
+ .type_coffe {
+    border: solid 1px #5e5e5e;
+    border-radius: 10px;
+ }
+
+ .p{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    max-width: 75ch;
+    text-align: center;
+ }
+
+  /* Oculta el símbolo predeterminado del details */
+summary::-webkit-details-marker {
+    display: none;
+}
+
+/* Estilos adicionales para Firefox */
+summary {
+    list-style: none; /* Oculta el estilo de lista en Firefox */
+}
+
+/* Estilos adicionales para otros navegadores */
+summary:before {
+    content: '+ '; /* Oculta cualquier contenido antes del summary */
+    display: none;
+}
+
+/* Oculta el símbolo predeterminado */
+summary::-webkit-details-marker {
+    display: none;
+}
+
+/* Establece el símbolo "+" para el details cerrado */
+details[open] .summary::after {
+    font-size: 30px;
+    font-weight: bolder;
+    content: '-';
+    float: right;
+    margin-left: 5px;
+}
+
+/* Establece el símbolo "-" para el details abierto */
+details:not([open]) .summary::after {
+    font-size: 30px;
+    font-weight: bolder;
+    content: '+';
+    float: right;
+    margin-left: 5px;
+}
