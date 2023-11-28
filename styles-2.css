@@ -142,6 +142,29 @@ img {
     padding-top: 10px;
     padding-bottom: 20px;
  }
+
+ .button_addToCart {
+    width: 100%;
+    padding: 20px;
+    margin-top: 15px;
+    background-color: white;
+    border: solid 2px #1a1a1a;
+    border-radius: 20px;
+ }
+
+ .button_addToCart_p {
+    color: #757575;
+    font-size: 18px;
+    font-weight: bold;
+ }
+
+ .button_addToCart:hover {
+    background-color: #1a1a1a;
+ }
+
+ .button_addToCart_p:hover {
+    color: white;
+ }
  
 
   /* Oculta el símbolo predeterminado del details */
