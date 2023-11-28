@@ -49,11 +49,23 @@ img {
     padding-top: 20px;
 }
 
+.span-h3 {
+    color: red;
+    font-size: 20px;
+}
+
+.s {
+    padding: 10px;
+    color: #5e5e5e;
+    font-size: 15px;
+}
+
 .span {
     background-color: red;
     color: white;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 5px;
+    border-radius: 25px;
+    font-size: 13px;
 }
 
 .details {
@@ -61,6 +73,7 @@ img {
     display: flex;
     align-items: start;
     justify-content: start;
+    z-index: 1;
 }
 
 .summary{
@@ -69,8 +82,7 @@ img {
     justify-content: start;
     text-align: center;
     color:#5e5e5e;
-    font-weight: 700;
-    z-index: 1;
+    font-weight: 500;
  }
 
  .type_coffe {
@@ -87,6 +99,50 @@ img {
     max-width: 75ch;
     text-align: center;
  }
+
+ .quantity-selector {
+    width: 25%;
+    margin-top: 40px;
+ }
+
+ .h3_quantity_selector {
+    padding-bottom: 20px;
+    color: #5e5e5e;
+    font-weight: 500;
+ }
+
+ .quantity-selector_box {
+    border: solid 1px #e3e3e3;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+ }
+
+ .quantity-btn {
+    background-color: white;
+    border: none;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color:#767676;
+ }
+
+ .quantity-input {
+    text-align: center;
+    border: none;
+    font-size: 18px;
+    font-weight: bolder;
+    color:#767676;
+ }
+
+ .h4__quantity_selector {
+    color: #00a341;
+    padding-top: 10px;
+    padding-bottom: 20px;
+ }
+ 
 
   /* Oculta el símbolo predeterminado del details */
 summary::-webkit-details-marker {
@@ -125,4 +181,13 @@ details:not([open]) .summary::after {
     content: '+';
     float: right;
     margin-left: 5px;
+}
+
+
+
+/* Estilos para ocultar las flechas de incremento y decremento */
+.quantity-input::-webkit-inner-spin-button,
+.quantity-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
