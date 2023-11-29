@@ -200,6 +200,15 @@ img {
     padding: 20px;
     margin-top: 20px;
  }
+
+ .product {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .img_product {
+    width: 500px;
+ }
  
 
   /* Oculta el símbolo predeterminado del details */
