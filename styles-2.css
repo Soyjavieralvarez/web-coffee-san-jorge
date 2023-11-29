@@ -165,6 +165,25 @@ img {
  .button_addToCart_p:hover {
     color: white;
  }
+
+ .h4 {
+    border: solid 1px red;
+    margin: 10px;
+    padding-top: 20px;
+    font-size: 25px;
+ }
+
+ .h5 {
+    border: solid 1px red;
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    padding-top: 20px;
+    color:#5e5e5e;
+    font-size: 18px;
+ }
  
 
   /* Oculta el símbolo predeterminado del details */
