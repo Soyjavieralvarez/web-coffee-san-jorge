@@ -184,6 +184,22 @@ img {
     color:#5e5e5e;
     font-size: 18px;
  }
+
+ .section_products {
+    border: solid 1px red;
+    margin: 40px;
+    padding: 20px;
+ }
+
+ .products_box {
+    border: solid 1px black;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 20px;
+ }
  
 
   /* Oculta el símbolo predeterminado del details */
