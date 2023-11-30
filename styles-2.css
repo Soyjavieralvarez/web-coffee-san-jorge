@@ -7,21 +7,23 @@
 }
 
 .flex-container{
-    border: solid 1px red;
     margin: 40px;
     padding: 20px;
     display: flex;
     flex-flow: row wrap;
     align-content: center;
+    justify-content: center;
 }
 
-img {
+.img_principal_product {
     padding: 10px;
-    border-radius: 20px;;
+    border-radius: 20px;
+    width: 500px;
+    height: 500px;
+    margin-right: 200px;
 }
 
 .h2 {
-    border: solid 1px green;
     padding: 20px;
 }
 
@@ -30,9 +32,6 @@ img {
     flex-direction: row;
 }
 
-.c1 {
-    width: 50%;
-}
 
 .c2 {
     width: 50%;
@@ -50,7 +49,6 @@ img {
 }
 
 .span-h3 {
-    color: red;
     font-size: 20px;
 }
 
@@ -61,7 +59,6 @@ img {
 }
 
 .span {
-    background-color: red;
     color: white;
     padding: 5px;
     border-radius: 25px;
@@ -167,14 +164,12 @@ img {
  }
 
  .h4 {
-    border: solid 1px red;
     margin: 10px;
     padding-top: 20px;
     font-size: 25px;
  }
 
  .h5 {
-    border: solid 1px red;
     display: flex;
     align-items: flex-start;
     justify-content: start;
@@ -196,18 +191,28 @@ img {
     display: flex;
     flex-flow: row wrap;
     align-content: center;
+    columns: 3;
     justify-content: space-around;
-    padding: 20px;
-    margin-top: 20px;
  }
 
  .product {
+    border: solid 1px green;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
  }
 
  .img_product {
-    width: 500px;
+    width: 400px;
+    height: 400px;
+ }
+
+ .h4_product {
+    border: solid 1px red;
+    font-size: 15px;;
  }
  
 
