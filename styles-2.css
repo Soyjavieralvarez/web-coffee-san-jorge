@@ -226,13 +226,30 @@
     color: #919191;
  }
 
- 
+
 
  .div_filters {
-    border: solid 1px red;
     background-image: url("https://sanjorge.cafe/cdn/shop/files/filtro_1.jpg?v=1696416489&width=2000");
     height: 1000px;
  }
+
+ .h4_filters {
+    color: white;
+    padding-top: 700px;
+    margin:40px;
+    font-size: 40px;
+    width: 15%;
+    font-weight: 600;
+ }
+
+ .h6_filters {
+    color: white;
+    font-size: 15px;
+    width: 15%;
+    margin: 40px;
+    font-weight: 500;
+ }
+
  
 
   /* Oculta el símbolo predeterminado del details */

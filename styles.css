@@ -17,6 +17,10 @@ body {
     margin: 0px auto;
 }
 
+.img_logo {
+    width: 300px;
+}
+
 header {
     padding: 10px;
     text-align: center;
@@ -25,8 +29,6 @@ header {
 }
 
 nav {
-    background-color: #d79943;
-    border-radius: 10px;
     height: auto;
     width: auto;
     display: flex;
@@ -35,10 +37,7 @@ nav {
     justify-content: center;
     padding: 20px;
     margin: 50px;
-}
-
-nav:hover {
-    background-color: rgb(196, 150, 86);
+    font-size: 20px;
 }
 
 nav ul li {
@@ -53,7 +52,9 @@ a {
 }
 
 a:hover {
-    color: #ffffff;
+    color: #2caaa4;
+    border-bottom: solid 2px #2caaa4;
+    padding-bottom: 5px;
 }
 
 .clearfix {
@@ -62,9 +63,7 @@ a:hover {
 
 #content {
     border: solid 1px red;
-    width: auto;
-    min-height: 500px;
-    padding: 40px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -75,7 +74,7 @@ a:hover {
     color: #818989;
     border: solid 1px rgb(36, 21, 21);
     margin: 20px;
-    width: 25%;
+    width: 27%;
     padding: 20px;
     display: flex;
     flex-flow: row wrap;
@@ -84,7 +83,7 @@ a:hover {
 }
 
 img {
-    width: 300px;
+    width: 500px;
 }
 
  article h2{
@@ -102,4 +101,7 @@ footer {
     color: black;
 }
 
+.section_questions {
+    background-color: #f1f1f1;
+}
 
