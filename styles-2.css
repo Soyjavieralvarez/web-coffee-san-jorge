@@ -49,7 +49,7 @@
 }
 
 .span_red_text {
-    font-size: 20px;
+    font-size: 18px;
     color: red;
 }
 
@@ -182,13 +182,11 @@
  }
 
  .section_products {
-    border: solid 1px red;
     margin: 40px;
     padding: 20px;
  }
 
  .products_box {
-    border: solid 1px black;
     display: flex;
     flex-flow: row wrap;
     align-content: center;
@@ -197,7 +195,6 @@
  }
 
  .product {
-    border: solid 1px red;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -227,6 +224,14 @@
     width: 100%;
     font-size:15px;
     color: #919191;
+ }
+
+ 
+
+ .div_filters {
+    border: solid 1px red;
+    background-image: url("https://sanjorge.cafe/cdn/shop/files/filtro_1.jpg?v=1696416489&width=2000");
+    height: 1000px;
  }
  
 
