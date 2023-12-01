@@ -260,7 +260,7 @@
   background-color: white;
   border-radius: 20px;
   padding: 50px;
-  margin-top: 50px;
+  margin-top: 80px;
   margin-bottom: 50px;
   width: 75%;
   display: flex;
@@ -272,7 +272,8 @@
 
 
 .div_questions_1 {
-  border: solid 1px red;
+  width: 50%;
+  padding-left: 40px
 }
 
 .h2_questions {
@@ -304,12 +305,43 @@
 }
 
 .button_questions:hover {
-  background-color: #00a341;
+  background-color: #4dc85a;
 }
 
 .div_questions_2 {
-  border: solid 1px rgb(0, 255, 110);
+  width: 50%;
+  padding: 20px;
+  border-radius: 25px;
+  background-color: #f3f3f3;
 }
+
+.details {
+  border-bottom: solid 1px #d8d8d8;
+  padding-bottom: 5px;
+}
+
+.summary {
+  color: #424242;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.type_coffe {
+  border: none;
+}
+
+.p {
+  text-align: left;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
 
 /* Oculta el símbolo predeterminado del details */
 summary::-webkit-details-marker {
