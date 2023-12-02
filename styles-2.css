@@ -25,6 +25,7 @@
 
 .h2 {
   padding: 20px;
+  font-size: 45px;
 }
 
 .box {
@@ -40,13 +41,10 @@
   z-index: 2;
 }
 
-.h2 {
-  font-size: 45px;
-}
-
 .h3 {
   font-size: 15px;
   padding-top: 20px;
+  color: #1a1a1a ;
 }
 
 .span_red_text {
