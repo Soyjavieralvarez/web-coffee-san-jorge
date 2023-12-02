@@ -60,7 +60,8 @@
   font-size: 15px;
 }
 
-.span {
+.span_save {
+  background-color: red;
   color: white;
   padding: 5px;
   border-radius: 25px;
