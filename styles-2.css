@@ -1,0 +1,366 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.flex-container {
+  margin: 40px;
+  padding: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.img_principal_product {
+  padding: 10px;
+  border-radius: 20px;
+  width: 500px;
+  height: 500px;
+  margin-right: 200px;
+}
+
+.h2 {
+  padding: 20px;
+  font-size: 45px;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.c2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+}
+
+.h3 {
+  font-size: 15px;
+  padding-top: 20px;
+  color: #1a1a1a ;
+}
+
+.span_red_text {
+  font-size: 18px;
+  color: red;
+}
+
+.s {
+  padding: 10px;
+  color: #5e5e5e;
+  font-size: 15px;
+}
+
+.span_save {
+  background-color: red;
+  color: white;
+  padding: 5px;
+  border-radius: 25px;
+  font-size: 13px;
+}
+
+.details {
+  margin-top: 20px;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}
+
+.summary {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  text-align: center;
+  color: #5e5e5e;
+  font-weight: 500;
+}
+
+.type_coffe {
+  border: solid 1px #5e5e5e;
+  border-radius: 10px;
+}
+
+.p {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  max-width: 75ch;
+  text-align: center;
+}
+
+.quantity-selector {
+  width: 25%;
+  margin-top: 40px;
+}
+
+.h3_quantity_selector {
+  padding-bottom: 20px;
+  color: #5e5e5e;
+  font-weight: 500;
+}
+
+.quantity-selector_box {
+  border: solid 1px #e3e3e3;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
+.quantity-btn {
+  background-color: white;
+  border: none;
+  padding: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #767676;
+}
+
+.quantity-input {
+  text-align: center;
+  border: none;
+  font-size: 18px;
+  font-weight: bolder;
+  color: #767676;
+}
+
+.h4__quantity_selector {
+  color: #00a341;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.button_addToCart {
+  width: 100%;
+  padding: 20px;
+  margin-top: 15px;
+  background-color: white;
+  border: solid 2px #1a1a1a;
+  border-radius: 20px;
+}
+
+.button_addToCart_p {
+  color: #757575;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.button_addToCart:hover {
+  background-color: #1a1a1a;
+}
+
+.h4 {
+  margin: 10px;
+  padding-top: 20px;
+  font-size: 25px;
+}
+
+.h5 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: start;
+  color: rgb(0, 0, 0);
+  margin: 10px;
+  padding-top: 20px;
+  color: #5e5e5e;
+  font-size: 18px;
+}
+
+.section_products {
+  margin: 40px;
+  padding: 20px;
+}
+
+.products_box {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  columns: 3;
+  justify-content: space-around;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 10px;
+  width: 29%;
+}
+
+.img_product {
+  width: 500px;
+  height: 500px;
+}
+
+.h4_product {
+  font-size: 18px;
+  padding: 10px;
+  margin: 10px;
+  text-align: left;
+  width: 100%;
+  color: #919191;
+}
+
+.h5_product {
+  text-align: left;
+  padding: 10px;
+  width: 100%;
+  font-size: 15px;
+  color: #919191;
+}
+
+.div_filters {
+  background-image: url("https://sanjorge.cafe/cdn/shop/files/filtro_1.jpg?v=1696416489&width=2000");
+  height: 1000px;
+}
+
+.h4_filters {
+  color: white;
+  padding-top: 700px;
+  margin: 40px;
+  font-size: 40px;
+  width: 15%;
+  font-weight: 600;
+}
+
+.h6_filters {
+  color: white;
+  font-size: 15px;
+  width: 15%;
+  margin: 40px;
+  font-weight: 500;
+}
+
+.section_questions {
+  background-color: #f1f1f1;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div_questions {
+  background-color: white;
+  border-radius: 20px;
+  padding: 50px;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 200px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.173);
+}
+
+
+.div_questions_1 {
+  width: 50%;
+  padding-left: 40px
+}
+
+.h2_questions {
+  padding-top: 10px;
+  margin-bottom: 50px;
+  font-size: 50px;
+}
+
+.h4_questions {
+  padding-bottom: 10px;
+  font-weight: 500;
+}
+
+.h5_questions {
+  padding-bottom: 40px;
+  color: #c6c6c6;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+
+.button_questions {
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button_questions:hover {
+  background-color: #4dc85a;
+}
+
+.div_questions_2 {
+  width: 50%;
+  padding: 20px;
+  border-radius: 25px;
+  background-color: #f3f3f3;
+}
+
+.details {
+  border-bottom: solid 1px #d8d8d8;
+  padding-bottom: 5px;
+}
+
+.summary {
+  color: #424242;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+
+.type_coffe {
+  border: none;
+}
+
+.p {
+  text-align: left;
+  font-weight: 600;
+}
+
+.circle-chevron {
+  background-color: #1a1a1a;
+  color:white;
+  border-radius: 25px;
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+/* Oculta el símbolo predeterminado del details */
+summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Estilos adicionales para Firefox */
+summary {
+  list-style: none; /* Oculta el estilo de lista en Firefox */
+}
+
+
+
+/* Estilos para ocultar las flechas de incremento y decremento */
+.quantity-input::-webkit-inner-spin-button,
+.quantity-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
